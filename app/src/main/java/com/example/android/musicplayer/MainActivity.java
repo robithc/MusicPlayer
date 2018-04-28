@@ -11,6 +11,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         //Create a textView for album 1
         TextView album_1_text = findViewById(R.id.album_1_text_View);
         //Set it to string
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent albumOneIntent = new Intent(MainActivity.this, Album1.class);
+
                 startActivity(albumOneIntent);
 
             }
@@ -36,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent albumTwoIntent = new Intent(MainActivity.this, Album2.class);
+
                 startActivity(albumTwoIntent);
 
             }

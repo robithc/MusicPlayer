@@ -32,6 +32,12 @@
 
         </activity>
 
+        <activity
+            android:name=".NowPlaying"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+
+        </activity>
 
 
     </application>
